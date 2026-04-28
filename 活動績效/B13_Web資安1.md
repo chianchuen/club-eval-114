@@ -85,11 +85,9 @@
 
 ## 九、活動照片與佐證
 
-- 照片：「PXL_20260318_143303314.jpg」
-- 照片資料夾：「115-3-18 照片記錄」
-- 講師簡報：「未命名文件.docx」「Web 資訊安全工作坊.docx」
-- 簽到 csv：「#1.csv」
-- Bevy 平台連結（不嵌入超連結，紙本以截圖呈現）
+![alt text](image.png)
+![alt text](image-1.png)
+![alt text](image-2.png)
 
 ---
 

@@ -53,14 +53,22 @@
 
 ## 八、活動照片與佐證
 
-- 影音紀錄已存於「114-11-19 Line 企業參訪／影音紀錄」資料夾
-- 簽到單.jpg
-- [PLACEHOLDER：LINE 公司門口合照、室內介紹照、Q&A 照]
+活動照：
+![alt text](image.png)
 
----
+大合照：
+![alt text](image-2.png)
+
+幹部合照:
+![alt text](image-1.png)
+
+回顧貼文：
+![alt text](image-3.png)
+
+<!-- ---
 
 ## 附件
 
 - GDGoC @TMU LINE 企業參訪 報名表單（回覆）
 - 影音紀錄
-- 簽到單
+- 簽到單 -->

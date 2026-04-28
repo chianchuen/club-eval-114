@@ -51,6 +51,7 @@ jobs:
             pandoc "$f" -o "../pdf/共通性/${f%.md}.pdf" \
               --pdf-engine=xelatex \
               -H /tmp/header-ci.tex \
+              -V fontsize=12pt \
               -V geometry:margin=2cm \
               --resource-path=. \
               || echo "⚠️ FAILED: $f"
@@ -65,6 +66,7 @@ jobs:
             pandoc "$f" -o "../pdf/活動績效/${f%.md}.pdf" \
               --pdf-engine=xelatex \
               -H /tmp/header-ci.tex \
+              -V fontsize=12pt \
               -V geometry:margin=2cm \
               --resource-path=. \
               || echo "⚠️ FAILED: $f"
@@ -79,6 +81,7 @@ jobs:
             pandoc "$f" -o "../pdf/簡報/${f%.md}.pdf" \
               --pdf-engine=xelatex \
               -H /tmp/header-ci.tex \
+              -V fontsize=12pt \
               -V geometry:margin=2cm \
               --resource-path=. \
               || echo "⚠️ FAILED: $f"

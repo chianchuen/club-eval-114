@@ -1,0 +1,13 @@
+.DS_Store
+*.pdf
+*.xlsx
+*.docx
+thumbs.db
+
+# Local TeX artifacts
+*.aux
+*.log
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz

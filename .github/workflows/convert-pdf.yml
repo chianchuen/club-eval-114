@@ -18,19 +18,26 @@ jobs:
       - name: Install Pandoc & XeLaTeX
         run: |
           sudo apt-get update
-          sudo apt-get install -y pandoc texlive-xetex texlive-fonts-recommended texlive-latex-recommended texlive-latex-extra
+          sudo apt-get install -y pandoc texlive-xetex texlive-fonts-recommended texlive-latex-recommended texlive-latex-extra texlive-lang-chinese
 
       - name: Setup BiauKai font & header
         run: |
           # Create a CI-specific header.tex that uses absolute path to font
           FONT_DIR="${GITHUB_WORKSPACE}/fonts"
           cat > /tmp/header-ci.tex << EOF
-          \usepackage{fontspec}
+          \usepackage{xeCJK}
+          \setCJKmainfont[
+            Path = ${FONT_DIR}/,
+            Extension = .ttc,
+            FontIndex = 0
+          ]{BiauKai}
           \setmainfont[
             Path = ${FONT_DIR}/,
             Extension = .ttc,
             FontIndex = 0
           ]{BiauKai}
+          \XeTeXlinebreaklocale "zh"
+          \XeTeXlinebreakskip = 0pt plus 1pt
           EOF
           echo "=== header-ci.tex ==="
           cat /tmp/header-ci.tex

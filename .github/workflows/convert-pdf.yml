@@ -20,13 +20,20 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y pandoc texlive-xetex texlive-fonts-recommended texlive-latex-recommended texlive-latex-extra
 
-      - name: Install BiauKai font
+      - name: Setup BiauKai font & header
         run: |
-          mkdir -p ~/.local/share/fonts
-          cp fonts/BiauKai.ttc ~/.local/share/fonts/
-          fc-cache -fv
-          # 驗證字型可用
-          fc-list | grep -i "biau" || echo "WARNING: BiauKai font not detected"
+          # Create a CI-specific header.tex that uses absolute path to font
+          FONT_DIR="${GITHUB_WORKSPACE}/fonts"
+          cat > /tmp/header-ci.tex << EOF
+          \usepackage{fontspec}
+          \setmainfont[
+            Path = ${FONT_DIR}/,
+            Extension = .ttc,
+            FontIndex = 0
+          ]{BiauKai}
+          EOF
+          echo "=== header-ci.tex ==="
+          cat /tmp/header-ci.tex
 
       - name: Convert 共通性 to PDF
         run: |
@@ -36,9 +43,8 @@ jobs:
             echo "Converting: $f"
             pandoc "$f" -o "../pdf/共通性/${f%.md}.pdf" \
               --pdf-engine=xelatex \
-              -V mainfont="BiauKai" \
+              -H /tmp/header-ci.tex \
               -V geometry:margin=2cm \
-              -V CJKmainfont="BiauKai" \
               --resource-path=. \
               || echo "⚠️ FAILED: $f"
           done
@@ -51,9 +57,8 @@ jobs:
             echo "Converting: $f"
             pandoc "$f" -o "../pdf/活動績效/${f%.md}.pdf" \
               --pdf-engine=xelatex \
-              -V mainfont="BiauKai" \
+              -H /tmp/header-ci.tex \
               -V geometry:margin=2cm \
-              -V CJKmainfont="BiauKai" \
               --resource-path=. \
               || echo "⚠️ FAILED: $f"
           done
@@ -66,9 +71,8 @@ jobs:
             echo "Converting: $f"
             pandoc "$f" -o "../pdf/簡報/${f%.md}.pdf" \
               --pdf-engine=xelatex \
-              -V mainfont="BiauKai" \
+              -H /tmp/header-ci.tex \
               -V geometry:margin=2cm \
-              -V CJKmainfont="BiauKai" \
               --resource-path=. \
               || echo "⚠️ FAILED: $f"
           done
@@ -77,7 +81,12 @@ jobs:
         run: |
           echo "=== Generated PDFs ==="
           find pdf -name "*.pdf" -exec ls -lh {} \;
-          echo "Total: $(find pdf -name '*.pdf' | wc -l) files"
+          TOTAL=$(find pdf -name '*.pdf' | wc -l)
+          echo "Total: $TOTAL files"
+          if [ "$TOTAL" -eq 0 ]; then
+            echo "::error::No PDFs were generated!"
+            exit 1
+          fi
 
       - name: Deploy to pdf branch
         uses: peaceiris/actions-gh-pages@v4

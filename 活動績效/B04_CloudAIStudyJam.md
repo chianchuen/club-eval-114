@@ -53,34 +53,16 @@
 | 指標 | 數值 |
 |------|------|
 | 線下到場人數 | 22 |
-| 完成 Lab 人數 | [PLACEHOLDER：實際完成數] |
-| 累積 Skill Badge 數 | [PLACEHOLDER：CSJ 後台統計] |
-| 取得 Google Cloud 認證考試券學員 | [PLACEHOLDER：是否有學員獲得] |
 
-## 七、回饋分析
 
-[PLACEHOLDER：本場回饋表單資料；如未發布獨立回饋表單，可引用 10/15 Gemini CLI 之回饋（多位同學連續參加）]
-
-## 八、活動檢討會議
+## 七、活動檢討會議
 
 於 10/22 第 4 次幹部會議檢討：
 - **正面**：學員對 Google 官方計畫的興趣高、現場完成度佳
 - **改進**：Cloud Skills Boost 平台需事前 1–2 天啟用學習點數連結，要求學員提早註冊
 
-## 九、活動照片與佐證
+## 八、活動照片與佐證
 
-本場活動有完整 18 張照片（存於「Cloud AI Study Jam 2025 Taipei Medical University_ 生成式 AI 培訓計畫 線下社群活動」資料夾）：
-
-- 學員實作畫面（多張）
-- 講師指導 Lab
-- 集體合照
-
-[PLACEHOLDER：精選 4–6 張照片放入 PDF]
-
----
-
-## 附件
-
-- 18 張活動照片
-- 簽到單
-- Google 官方 Cloud AI Study Jam 2025 RSVP 平台截圖
+![](image-13.png)
+![alt text](image-12.png)
+![alt text](image-14.png)

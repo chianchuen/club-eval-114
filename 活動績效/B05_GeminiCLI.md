@@ -13,7 +13,7 @@
 | 實際參與人數 | **Bevy 平台 RSVP：17 人**（簽到實到 22 人）|
 | 費用 | 社員免費／非社員 50 元 |
 | 講師 | **Max Huang**（**Cloud GDE，Google Developer Expert**——全球僅 100+ 位）|
-| 講師費 | [PLACEHOLDER] |
+| 講師費 | 2000 元 |
 | 膳食支出 | 2,640 元（遊一間便當 ×22）|
 
 ## 二、活動目的與宗旨
@@ -75,17 +75,8 @@
 
 ## 八、活動照片與佐證
 
-- 講師授課影音紀錄（已存於「影音紀錄」資料夾）
-- 講師簡報：「20251015_Gemini CLI 介紹與上手 的副本.pptx」
-- 簽到單
-- [PLACEHOLDER：講師授課照、合照]
-
----
-
-## 附件
-
-- 2025 Gemini CLI 介紹與上手 回饋表單（回覆）
-- 講師簡報
-- 影音紀錄
-- 簽到單
-- IG 後續介紹貼文（活動後）：「由 Max Huang 講師主講的 Gemini CLI 介紹，讓我們深入了解了這款強大的工具」（完整內容已存於「各活動宣傳.txt」）
+![alt text](image-11.png)
+![](image-6.png)
+![](image-7.png)
+![alt text](image-8.png)
+![alt text](image-9.png)

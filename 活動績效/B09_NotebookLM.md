@@ -80,11 +80,6 @@
 
 ## 八、活動照片與佐證
 
-- 講師簡報：「Metalearning x Notebook LM.pdf」
-- 影音紀錄：「MetaLearning Notebook LM - 後設學習與應用／影音紀錄」資料夾
-- 簽到單.jpg
-- [PLACEHOLDER：講師授課照、學員聽講照、合照]
-
 活動宣傳：
 ![alt text](image-34.png)
 

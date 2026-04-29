@@ -9,7 +9,6 @@
 | 活動地點 | 線上 Google Meet |
 | 主辦單位 | **GDG on Campus NTPU × NCCU × TMU × NUK 4 校聯合主辦** |
 | 活動對象 | 全臺 GDG on Campus 成員（線上活動，跨地區可參加）|
-| 實際參與人數 | [PLACEHOLDER] |
 | 費用 | 免費 |
 | 講師 | **XC**（GDG on Campus NUK 24'–26' Organizer）|
 | 報名 | 主辦方（含 TMU）IG Linktree 連結 |
@@ -78,13 +77,11 @@
 
 ## 十、活動照片與佐證
 
-- 4 校聯辦活動海報（待補）
-- 線上會議截圖（待補）
-- [PLACEHOLDER：4 校 LINE / Email 合作對話截圖]
+報名網頁：
+![alt text](image-19.png)
 
----
+簡報：
+![alt text](image-21.png)
 
-## 附件
-
-- 4 校聯辦活動 IG 宣傳貼文（已收錄於「各活動宣傳.txt」）
-- [PLACEHOLDER：實際出席學員名單]
+現場實作：
+![alt text](image-20.png)

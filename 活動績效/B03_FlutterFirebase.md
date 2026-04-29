@@ -13,7 +13,7 @@
 | 實際參與人數 | **Bevy 平台 RSVP：20 人**（簽到實到 21 人，含跨校學員）|
 | 費用 | 社員免費／非社員 50 元 |
 | 講師 | **Ahdaa Yeh 阿達**——水映工作坊創辦人、GDG Taichung Organizer、GDG Taipei Co-organizer |
-| 講師費 | [PLACEHOLDER] |
+| 講師費 | 4000 元 |
 | 膳食支出 | 約 2,700 元（7 飯便當 ×21、虎味食堂 ×2、布雷 ×5）|
 
 ## 二、活動目的與宗旨
@@ -57,9 +57,6 @@
 | 活動場地 | 高分 |
 | 活動流程 | 高分 |
 
-**改進建議**（學員實際填寫）：
-- 「無」「剛剛好」「[PLACEHOLDER：補入更多]」
-
 **已落實的改進**：
 - 後續同類工作坊（11/25 Flutter App）縮短至 1 小時
 - 加強會前預習教材，降低學員進入門檻
@@ -72,20 +69,16 @@
 
 ## 八、活動照片與佐證
 
-- [PLACEHOLDER：講師授課照]
-- [PLACEHOLDER：學員實作照]
-- [PLACEHOLDER：合照]
-- 簽到單（紙本）
+宣傳：
+![alt text](image-22.png)
+
+![alt text](image-24.png)
+![alt text](image-23.png)
+
+回顧：
+![alt text](image-25.png)
 
 ## 九、Bevy 平台官方頁面
 
 - 活動正式名稱：「Google · GDG on Campus Taipei Medical University, Taipei, Taiwan presents Flutter & Firebase 跨平台實戰工作坊」
 - Bevy 連結：（評鑑文件不附外部超連結，紙本檔案中以截圖呈現）
-
----
-
-## 附件
-
-- 2025 Flutter & Firebase 跨平台實戰工作坊回饋表單（回覆）
-- 活動照片
-- 簽到單

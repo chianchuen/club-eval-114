@@ -34,10 +34,13 @@ jobs:
           \setmainfont[
             Path = ${FONT_DIR}/,
             Extension = .ttc,
-            FontIndex = 0
+            FontIndex = 0,
+            Scale = 0.85
           ]{BiauKai}
           \XeTeXlinebreaklocale "zh"
-          \XeTeXlinebreakskip = 0pt plus 1pt
+          \XeTeXlinebreakskip = 0pt plus 1pt minus 0.1pt
+          \XeTeXlinebreakpenalty = 0
+          \xeCJKsetup{CJKecglue = {\hskip 0.15em plus 0.08em minus 0.08em}}
           EOF
           echo "=== header-ci.tex ==="
           cat /tmp/header-ci.tex

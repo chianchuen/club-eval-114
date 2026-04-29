@@ -85,15 +85,12 @@
 - 簽到單.jpg
 - [PLACEHOLDER：講師授課照、學員聽講照、合照]
 
-## 九、講師金句
+活動宣傳：
+![alt text](image-34.png)
 
-> 「效率至上」——洪偉倫 Stephen（牙醫五）
+![alt text](image-36.png)
+![alt text](image-37.png)
+![alt text](image-35.png)
 
----
-
-## 附件
-
-- 回饋表單_MetaLearning Notebook LM（26 份回應）
-- 講師簡報 PDF
-- 影音紀錄
-- 簽到單
+回顧：
+![](image-33.png)
